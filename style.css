@@ -1,0 +1,60 @@
+
+body{
+    background-color: orange;
+}
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#C43C1E;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  button{
+    height:40px ;
+    border:none;
+    border-radius: 20px;
+    color: blue;
+  }
+    
+  .flex-container {
+    display: flex;
+  }
+  
+  .flex-item-left {
+    flex: 1;
+  }
+  
+  .flex-item-right {
+    flex: 1;
+  }
+  
+  img[alt="myimage"] {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+  }
+  
+  h1,h2{
+    color:blue;
+    
+  }
+  h1{
+    font-size: 6vmax;
+  }
+  #skills,p,#links{
+    color:white
+  }
+  footer{
+    background-color:#b7aeac;
+    color: white;
+  }
+  /* Media query for screens smaller than 600px */
+  @media (max-width: 600px) {
+    .navbar,.flex-container{
+      flex-direction: column;
+    }
+}
+  
+   
+  
